@@ -551,6 +551,7 @@ Restart_brook(){
     /etc/init.d/brook-pf start
 }
 Update_brook(){
+}
 #    check_installed_status
 #    echo && echo -e "请选择你的服务器是国内还是国外
 # ${Green_font_prefix}1.${Font_color_suffix}  国内服务器(逗比云)
@@ -566,7 +567,7 @@ Update_brook(){
 #    fi
 #    check_new_ver
 #    check_ver_comparison
-}
+
 Uninstall_brook(){
     check_installed_status
     echo -e "确定要卸载 Brook ? [y/N]\n"
