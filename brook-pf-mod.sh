@@ -551,6 +551,7 @@ Restart_brook(){
     /etc/init.d/brook-pf start
 }
 Update_brook(){
+    check_installed_status
 }
 Uninstall_brook(){
     check_installed_status
