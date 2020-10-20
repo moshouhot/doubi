@@ -552,22 +552,6 @@ Restart_brook(){
 }
 Update_brook(){
 }
-#    check_installed_status
-#    echo && echo -e "请选择你的服务器是国内还是国外
-# ${Green_font_prefix}1.${Font_color_suffix}  国内服务器(逗比云)
-# ${Green_font_prefix}2.${Font_color_suffix}  国外服务器(Github)
-# 
-# ${Tip} 因为国内对 Github 限速，这会导致国内服务器下载速度极慢，所以选择 国内服务器 选项就会从我的 逗比云 下载!" && echo
-#    read -e -p "(默认: 2 国外服务器):" bk_Download
-#    [[ -z "${bk_Download}" ]] && bk_Download="2"
-#    if [[ ${bk_Download} == "1" ]]; then
-#        Download_type="1"
-#    else
-#        Download_type="2"
-#    fi
-#    check_new_ver
-#    check_ver_comparison
-
 Uninstall_brook(){
     check_installed_status
     echo -e "确定要卸载 Brook ? [y/N]\n"
